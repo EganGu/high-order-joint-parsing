@@ -1,0 +1,36 @@
+# log
+*.log
+
+# scripts
+*.sh
+*.slurm
+
+# unnecessary code
+__pycache__
+case_study.py
+case_wrong.py
+cmp_ana.py
+constituent_stat.py
+error_ana.py
+generate_lex.py
+match_ana.py
+test_*.py
+test.py
+TreebankPreprocessing/
+exp/
+figures/
+
+# data and exp
+SPMRL_SHARED_2014_NO_ARABIC/
+*.conll
+*.conllx
+*.pid
+*.pt
+*.png
+*.txt
+*-s*.ini
+bert-spmrl/
+bert-zctb/
+
+# vscode
+.vscode
